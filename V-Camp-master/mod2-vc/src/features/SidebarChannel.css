@@ -1,0 +1,26 @@
+.sidebarChannel {
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.sidebarChannel:hover > h5,
+.sidebar-channel:hover {
+  color: black;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+}
+
+.sidebarChannel > h5,
+.sidebar-channel {
+  display: flex;
+  padding-left: 15px;
+
+  align-items: center;
+  background-color: #dcdcdc;
+  color: black;
+  cursor: pointer;
+}
+.sidebarChannel__hash {
+  font-size: 20px;
+  padding: 8px;
+}

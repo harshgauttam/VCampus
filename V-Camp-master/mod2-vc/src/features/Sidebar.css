@@ -1,0 +1,102 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.sidebar__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f5f5f5;
+  color: black;
+  border-bottom: 1px solid #696969;
+}
+
+.sidebar__channels {
+  flex: 1;
+}
+
+.sidebar__addChannel {
+  cursor: pointer;
+}
+
+.sidebar__addChannel:hover {
+  color: azure;
+}
+
+.sidebar__channelsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #d3d3d3;
+  color: black;
+}
+
+.sidebar__header {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__voice,
+.sidebar__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #696969;
+  background-color: #d3d3d3;
+  padding: 5px;
+  border-top: 1px solid #597475;
+  height: 7vh;
+  overflow: hidden;
+}
+
+.sidebar__voiceInfo {
+  flex: 1;
+  padding: 10px;
+  color: black;
+}
+
+.sidebar__voiceIcon {
+  color: rgb(38, 245, 48);
+  font-size: 100px;
+}
+
+.sidebar__voiceInfo > h4 {
+  color: #696969;
+}
+
+.sidebar__voiceInfo > p {
+  font-size: smaller;
+}
+
+.sidebar__voiceIcons > .MuiSvgIcon-root {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.sidebar__voiceIcons > .MuiSvgIcon-root:hover {
+  color: black;
+}
+
+.sidebar__profileInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar__profileInfo > h4 {
+  color: #696969;
+}
+
+.sidebar__profileIcons > .MuiSvgIcon-root {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.sidebar__profileIcons > .MuiSvgIcon-root:hover {
+  color: black;
+}
